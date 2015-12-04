@@ -38,3 +38,17 @@ per la configurazione vedi la directory conf
 yum install redis.x86_64
 
 per la configurazione vedi la directory conf
+
+/opt/rh/php54/root/usr/bin/pecl install redis
+
+You should add "extension=redis.so" to php.ini
+
+dopo controlla phpinfo
+
+/opt/rh/php54/root/usr/bin/pear channel-discover pear.nrk.io
+
+/opt/rh/php54/root/usr/bin/pear remote-list -c nrk
+
+/opt/rh/php54/root/usr/bin/pear install nrk/predis
+
+ricorda di installare il plugin per redis su wordpress e il plugin WP-Super-Cache
