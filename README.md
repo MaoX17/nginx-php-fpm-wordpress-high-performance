@@ -1,4 +1,4 @@
-# nginx per wordpress con alti volumi di traffico
+﻿# nginx per wordpress con alti volumi di traffico
 
 ## Risorse da consultare
 http://codex.wordpress.org/Nginx#URL_Rewrites_.2F_Permalinks
@@ -22,6 +22,7 @@ priority=10
 yum install nginx
 
 Default document root directory: /usr/share/nginx/html
+
 Default configuration file: /etc/nginx/nginx.conf
 Default Virtual host config directory: /etc/nginx/conf.d/
 Default Virtual host config file: /etc/nginx/conf.d/default.conf
